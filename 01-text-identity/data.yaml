@@ -1,0 +1,31 @@
+# ============================================
+# المستوى الأول: تعريف النص والقصة
+# ============================================
+
+# ---------- 1. هوية النص ----------
+id: ""
+title: ""
+source: ""
+text_type: ""
+genre: ""
+language_style: ""
+
+length:
+  words: null
+  sentences: null
+  scenes: null
+
+units: []
+
+# ---------- 2. الأساس ----------
+foundation: ""
+
+# ---------- 3. الغاية ----------
+purpose:
+  central_issue: ""
+  message: ""
+  moral_value: ""
+  faith_value: ""
+  lesson: ""
+  intended_effect: ""
+  additional: []
