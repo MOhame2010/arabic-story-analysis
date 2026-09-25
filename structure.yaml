@@ -1,32 +1,63 @@
 levels:
-  "01-text-identity":
+  01-text-identity:
     title: "التعريف بالنص والقصة"
-    fields:
-      id:
-        type: string
-        value: ""
-      title:
-        type: string
-        value: ""
-      author:
-        type: string
-        value: ""
-      source:
-        type: string
-        value: ""
-      category:
-        type: string
-        value: ""
-      notes:
-        type: string
-        value: ""
-
-  "02-narrative-structure":
+  02-narrative-structure:
     title: "البنية السردية"
-    fields:
-      plot:
-        type: string
-        value: ""
-      conflict:
-        type: string
-        value: ""
+  03-story-world:
+    title: "عالم القصة"
+  04-characters:
+    title: "الشخصيات"
+  05-scene:
+    title: "المشهد"
+  06-relations:
+    title: "العلاقات"
+  07-lexicon:
+    title: "المعجم"
+  08-semantic-fields:
+    title: "الحقول الدلالية"
+  09-derivation:
+    title: "الاشتقاق"
+  10-usage:
+    title: "الاستعمال"
+  11-emotion-value:
+    title: "العاطفة والقيمة"
+  12-adjectives-adverbs:
+    title: "الصفات والأحوال"
+  13-senses:
+    title: "المحسوسات"
+  14-quotes-evidence:
+    title: "الاقتباس والشواهد"
+  15-morphology:
+    title: "الصرف"
+  16-grammar:
+    title: "النحو"
+  17-collocations:
+    title: "المتلازمات"
+  18-syntactic-extras:
+    title: "الفضلات"
+  19-pronouns:
+    title: "الضمائر"
+  20-particles:
+    title: "حروف المعاني"
+  21-sentences:
+    title: "الجمل"
+  22-sentence-position:
+    title: "محل الجمل"
+  23-relatives:
+    title: "الموصولات الحرفية والاسمية وبدائلها"
+  24-analytical-questions:
+    title: "الأسئلة التحليلية"
+  25-sound:
+    title: "الصوت"
+  26-semantic-relations:
+    title: "العلاقات الدلالية"
+  27-word-card:
+    title: "بطاقة الكلمة"
+  28-sentence-clause-card:
+    title: "الجملة وشبه الجملة"
+  29-scene-card:
+    title: "بطاقة المشهد"
+  30-character-card:
+    title: "بطاقة الشخصية"
+  31-generation:
+    title: "التوليد السردي"
