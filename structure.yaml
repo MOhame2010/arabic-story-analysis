@@ -1,0 +1,32 @@
+levels:
+  "01-text-identity":
+    title: "التعريف بالنص والقصة"
+    fields:
+      id:
+        type: string
+        value: ""
+      title:
+        type: string
+        value: ""
+      author:
+        type: string
+        value: ""
+      source:
+        type: string
+        value: ""
+      category:
+        type: string
+        value: ""
+      notes:
+        type: string
+        value: ""
+
+  "02-narrative-structure":
+    title: "البنية السردية"
+    fields:
+      plot:
+        type: string
+        value: ""
+      conflict:
+        type: string
+        value: ""
