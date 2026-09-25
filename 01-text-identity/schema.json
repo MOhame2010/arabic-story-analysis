@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TextIdentity",
+  "type": "object",
+  "required": ["id", "title", "source"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "معرّف فريد بالإنجليزية"
+    },
+    "title": {
+      "type": "string",
+      "description": "اسم القصة"
+    },
+    "source": {
+      "type": "string",
+      "description": "المصدر"
+    },
+    "text_type": { "type": "string" },
+    "genre": { "type": "string" },
+    "language_style": { "type": "string" },
+    "length": {
+      "type": "object",
+      "properties": {
+        "words": { "type": ["integer", "null"] },
+        "sentences": { "type": ["integer", "null"] },
+        "scenes": { "type": ["integer", "null"] }
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "foundation": { "type": "string" },
+    "purpose": {
+      "type": "object",
+      "properties": {
+        "central_issue": { "type": "string" },
+        "message": { "type": "string" },
+        "moral_value": { "type": "string" },
+        "faith_value": { "type": "string" },
+        "lesson": { "type": "string" },
+        "intended_effect": { "type": "string" },
+        "additional": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}
