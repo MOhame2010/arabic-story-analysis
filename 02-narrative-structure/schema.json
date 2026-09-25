@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "البنية السردية",
+  "type": "object",
+  "properties": {
+    "plot": {
+      "type": "string",
+      "description": "حقل plot في مستويات التحليل"
+    },
+    "conflict": {
+      "type": "string",
+      "description": "حقل conflict في مستويات التحليل"
+    }
+  },
+  "required": [
+    "plot",
+    "conflict"
+  ]
+}
