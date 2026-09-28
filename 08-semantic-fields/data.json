@@ -1,1 +1,215 @@
-{}
+{
+  "story_id": "story_001_loan_wood",
+  "title": "حديث الرجل الذي استسلف ألف دينار",
+  "semantic_fields": [
+    {
+      "field_id": "SF01",
+      "field_name": "المال والمعاملات المالية",
+      "description": "ألفاظ ومفاهيم المال والإقراض والدفع والحق المالي.",
+      "semantic_units": [
+        {
+          "concept_id": "C001",
+          "concept": "المال",
+          "expressions": ["ألف دينار", "دينار", "المال", "الألف دينار"]
+        },
+        {
+          "concept_id": "C002",
+          "concept": "الإقراض والاستلاف",
+          "expressions": ["يسلفه", "تسلفت", "أسلفه", "أسلفه"]
+        },
+        {
+          "concept_id": "C003",
+          "concept": "الدفع والسداد",
+          "expressions": ["دفعها إليه", "أدى عنك", "بمالك"]
+        },
+        {
+          "concept_id": "C004",
+          "concept": "الحق المالي",
+          "expressions": ["الذي له"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF02",
+      "field_name": "الشهادة والضمان",
+      "description": "ألفاظ التوثيق بالشهادة والضمان والكفالة.",
+      "semantic_units": [
+        {
+          "concept_id": "C005",
+          "concept": "الشهادة",
+          "expressions": ["الشهداء", "أشهدهم", "شهيدا"]
+        },
+        {
+          "concept_id": "C006",
+          "concept": "الكفالة والضمان",
+          "expressions": ["الكفيل", "كفيلا"]
+        },
+        {
+          "concept_id": "C007",
+          "concept": "الاستشهاد والكفالة بالله",
+          "expressions": ["كفى بالله شهيدا", "كفى بالله كفيلا"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF03",
+      "field_name": "الزمن والأجل",
+      "description": "ألفاظ تحديد الموعد والمدة والسبق الزمني.",
+      "semantic_units": [
+        {
+          "concept_id": "C008",
+          "concept": "الأجل المحدد",
+          "expressions": ["إلى أجل مسمى", "للأجل الذي أجله", "الأجل"]
+        },
+        {
+          "concept_id": "C009",
+          "concept": "السبق الزمني",
+          "expressions": ["قبل الذي أتيت فيه", "قبل الذي جئت فيه"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF04",
+      "field_name": "البحر والسفر والنقل",
+      "description": "ألفاظ البحر والمراكب والركوب والخروج والوصول إلى البلد.",
+      "semantic_units": [
+        {
+          "concept_id": "C010",
+          "concept": "البحر",
+          "expressions": ["في البحر", "إلى البحر"]
+        },
+        {
+          "concept_id": "C011",
+          "concept": "المركب",
+          "expressions": ["مركبا", "مركب"]
+        },
+        {
+          "concept_id": "C012",
+          "concept": "الركوب والسفر",
+          "expressions": ["يركبها", "يخرج إلى بلده", "يخرج إلى بلده", "جئت فيه", "أتيت فيه"]
+        },
+        {
+          "concept_id": "C013",
+          "concept": "الوصول والقدوم",
+          "expressions": ["يقدم عليه", "جاء بماله", "قَدِم الذي كان أسلفه"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF05",
+      "field_name": "البحث والتعذر والوصول إلى الغاية",
+      "description": "ألفاظ السعي في البحث، وعدم العثور، وبذل الجهد، والعجز عن تحقيق المقصود.",
+      "semantic_units": [
+        {
+          "concept_id": "C014",
+          "concept": "البحث والطلب",
+          "expressions": ["التمس", "يلتمس مركبا", "طلب مركب", "ينظر"]
+        },
+        {
+          "concept_id": "C015",
+          "concept": "بذل الجهد",
+          "expressions": ["جهدت", "جاهدا"]
+        },
+        {
+          "concept_id": "C016",
+          "concept": "عدم العثور",
+          "expressions": ["لم يجد مركبا", "لم أجد مركبا", "ما وجدت مركبا"]
+        },
+        {
+          "concept_id": "C017",
+          "concept": "العجز عن الوصول",
+          "expressions": ["لم أقدر"]
+        },
+        {
+          "concept_id": "C018",
+          "concept": "توقع العثور",
+          "expressions": ["لعل مركبا قد جاء"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF06",
+      "field_name": "الرسالة والإرسال",
+      "description": "ألفاظ الكتابة والرسالة وإرسال المال أو الخبر إلى صاحبه.",
+      "semantic_units": [
+        {
+          "concept_id": "C019",
+          "concept": "الرسالة المكتوبة",
+          "expressions": ["صحيفة", "صحيفة منه إلى صاحبه"]
+        },
+        {
+          "concept_id": "C020",
+          "concept": "الإرسال",
+          "expressions": ["أبعث إليه", "بعثت إلي بشيء"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF07",
+      "field_name": "الخشب والوعاء والحطب",
+      "description": "ألفاظ الخشب وتحويله إلى وعاء وإغلاقه ثم استعماله حطبا.",
+      "semantic_units": [
+        {
+          "concept_id": "C021",
+          "concept": "الخشب",
+          "expressions": ["خشبة"]
+        },
+        {
+          "concept_id": "C022",
+          "concept": "تفريغ الخشب وتجهيزه",
+          "expressions": ["نقرها", "أدخل فيها", "زجج موضعها"]
+        },
+        {
+          "concept_id": "C023",
+          "concept": "فتح الخشبة",
+          "expressions": ["نشرها"]
+        },
+        {
+          "concept_id": "C024",
+          "concept": "الحطب",
+          "expressions": ["حطبا"]
+        }
+      ]
+    },
+    {
+      "field_id": "SF08",
+      "field_name": "الألفاظ الدينية والتوكل والاستيداع",
+      "description": "الألفاظ التي تحيل مباشرة إلى الله والدعاء والتفويض والاستيداع وتحقيق الأمانة.",
+      "semantic_units": [
+        {
+          "concept_id": "C025",
+          "concept": "الدعاء",
+          "expressions": ["اللهم"]
+        },
+        {
+          "concept_id": "C026",
+          "concept": "التوكل بالله",
+          "expressions": ["كفى بالله شهيدا", "كفى بالله كفيلا"]
+        },
+        {
+          "concept_id": "C027",
+          "concept": "الاستيداع",
+          "expressions": ["أستودعكها"]
+        },
+        {
+          "concept_id": "C028",
+          "concept": "تحقيق الأمانة بإذن الله",
+          "expressions": ["فإن الله قد أدى عنك الذي بعثت في الخشبة"]
+        }
+      ]
+    }
+  ],
+  "semantic_map": {
+    "root": "القصة",
+    "branches": [
+      {"field_id": "SF01", "field_name": "المال والمعاملات المالية"},
+      {"field_id": "SF02", "field_name": "الشهادة والضمان"},
+      {"field_id": "SF03", "field_name": "الزمن والأجل"},
+      {"field_id": "SF04", "field_name": "البحر والسفر والنقل"},
+      {"field_id": "SF05", "field_name": "البحث والتعذر والوصول إلى الغاية"},
+      {"field_id": "SF06", "field_name": "الرسالة والإرسال"},
+      {"field_id": "SF07", "field_name": "الخشب والوعاء والحطب"},
+      {"field_id": "SF08", "field_name": "الألفاظ الدينية والتوكل والاستيداع"}
+    ]
+  }
+}
