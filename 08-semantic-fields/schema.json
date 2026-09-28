@@ -1,7 +1,116 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "الحقول الدلالية",
+  "title": "الحقول الدلالية للقصة العربية",
+  "description": "مخطط لتمثيل الحقول الدلالية والمفاهيم والألفاظ الواردة في القصة، مع خريطة هرمية للحقول. لا يصف هذا المخطط البنية السردية أو العلاقات الدلالية بين المفاهيم.",
   "type": "object",
-  "properties": {},
-  "required": []
+  "additionalProperties": false,
+  "required": [
+    "story_id",
+    "title",
+    "semantic_fields",
+    "semantic_map"
+  ],
+  "properties": {
+    "story_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "semantic_fields": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "field_id",
+          "field_name",
+          "semantic_units"
+        ],
+        "properties": {
+          "field_id": {
+            "type": "string",
+            "pattern": "^SF[0-9]{2}$"
+          },
+          "field_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string"
+          },
+          "semantic_units": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "concept_id",
+                "concept",
+                "expressions"
+              ],
+              "properties": {
+                "concept_id": {
+                  "type": "string",
+                  "pattern": "^C[0-9]{3}$"
+                },
+                "concept": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "expressions": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "semantic_map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "root",
+        "branches"
+      ],
+      "properties": {
+        "root": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "field_id",
+              "field_name"
+            ],
+            "properties": {
+              "field_id": {
+                "type": "string",
+                "pattern": "^SF[0-9]{2}$"
+              },
+              "field_name": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
